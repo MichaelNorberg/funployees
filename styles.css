@@ -1,0 +1,142 @@
+.index-body {
+    height:100%;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.box-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    opacity: 0.2;
+    background: #333 url("https://i1.wp.com/wallpaper.pickywallpapers.com/1680x1050/spongebob-rainbow.jpg") no-repeat center ;
+    background-size:cover;
+    height:50vh;
+    overflow:hidden;
+}
+
+.box-1-con {
+    padding-top:35%;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-bottom:35%;
+}
+
+.box-1-text {
+    opacity:0.8;
+    color:#fff;
+    text-align:center;
+}
+
+.box-1:hover {
+    opacity: 1;
+    -webkit-transition: opacity 450ms ease-in;
+    -moz-transition: opacity 450ms ease-in;
+    -ms-transition: opacity 450ms ease-in;
+    -o-transition: opacity 450ms ease-in;
+    transition: opacity 450ms ease-in;
+}
+
+.box-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    opacity: 0.2;
+    background: #333 url("http://vignette3.wikia.nocookie.net/nick-toons-wikia/images/3/39/Patrick_Holding_2_Ice_Creams.jpg/revision/latest?cb=20150516204521") no-repeat center ;
+    background-size:cover;
+    height:50vh;
+    overflow:hidden;
+}
+.box-2-con {
+    padding-top:35%;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-bottom:35%;
+}
+
+.box-2-text {
+    opacity:0.8;
+    color:#fff;
+    text-align:center;
+}
+
+.box-2:hover {
+    opacity: 1;
+    -webkit-transition: opacity 450ms ease-in;
+    -moz-transition: opacity 450ms ease-in;
+    -ms-transition: opacity 450ms ease-in;
+    -o-transition: opacity 450ms ease-in;
+    transition: opacity 450ms ease-in;
+}
+
+.box-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    opacity: 0.2;
+    background: #333 url("https://vignette.wikia.nocookie.net/spongebob/images/0/0e/The_Two_Faces_of_Squidward_24.jpg/revision/latest/scale-to-width-down/640?cb=20131029000807") no-repeat center ;
+    background-size:cover;
+    height:50vh;
+    overflow:hidden;
+}
+.box-3-con {
+    padding-top:35%;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-bottom:35%;
+}
+
+.box-3-text {
+    opacity:0.8;
+    color:#fff;
+    text-align:center;
+}
+
+.box-3:hover {
+    opacity: 1;
+    -webkit-transition: opacity 450ms ease-in;
+    -moz-transition: opacity 450ms ease-in;
+    -ms-transition: opacity 450ms ease-in;
+    -o-transition: opacity 450ms ease-in;
+    transition: opacity 450ms ease-in;
+}
+
+.box-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    opacity: 0.2;
+    background: #333 url("https://memegenerator.net/img/images/600x600/17407226/plankton-meme-starbucks.jpg") no-repeat center ;
+    background-size:cover;
+    height:50vh;
+    overflow:hidden;
+}
+.box-4-con {
+    padding-top:35%;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-bottom:35%;
+}
+
+.box-4-text {
+    opacity:0.8;
+    color:#fff;
+    text-align:center;
+}
+
+.box-4:hover {
+    opacity: 1;
+    -webkit-transition: opacity 450ms ease-in;
+    -moz-transition: opacity 450ms ease-in;
+    -ms-transition: opacity 450ms ease-in;
+    -o-transition: opacity 450ms ease-in;
+    transition: opacity 450ms ease-in;
+}
+
